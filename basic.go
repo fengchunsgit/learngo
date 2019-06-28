@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+	"math/cmplx"
+)
 
 var (
 	aa=11
@@ -14,6 +18,15 @@ func main() {
 	variableTypeDeduction()
 	variableShorter()
 	fmt.Println(aa,bb,cc)
+	euler()
+	triangle()
+}
+
+func triangle(){
+	var a,b int =3,4
+	var c int
+	c=int(math.Sqrt(float64(a*a+b*b)))
+	fmt.Println(c)
 }
 
 func variableZeroValue(){
@@ -36,4 +49,9 @@ func variableTypeDeduction(){
 func variableShorter(){
 	a,b,c,s:=3,4,true,"def"
 	fmt.Println(a,b,c,s)
+}
+
+func euler(){
+	c:=cmplx.Pow(math.E,1i*math.Pi)+1
+	fmt.Printf("%.3f",c)
 }
