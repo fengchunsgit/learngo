@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5848f09a-fc5e-4ec8-9ebe-907c87c90ed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sliceops.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,29 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slice.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sliceops.go">
+        <entry file="file://$PROJECT_DIR$/map.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+            <state relative-caret-position="486">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -65,6 +47,7 @@
         <option value="$PROJECT_DIR$/slice.go" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/sliceops.go" />
+        <option value="$PROJECT_DIR$/map.go" />
       </list>
     </option>
   </component>
@@ -116,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build sliceops.go">
+  <component name="RunManager" selected="Go Build.go build map.go">
     <configuration name="go build array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -137,12 +120,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/loop.go" />
+      <filePath value="$PROJECT_DIR$/map.go" />
       <package value="learngo" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -169,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build map.go" />
         <item itemvalue="Go Build.go build sliceops.go" />
         <item itemvalue="Go Build.go build slice.go" />
         <item itemvalue="Go Build.go build array.go" />
         <item itemvalue="Go Build.go build func.go" />
-        <item itemvalue="Go Build.go build loop.go" />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +269,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
